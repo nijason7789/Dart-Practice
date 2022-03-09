@@ -2,6 +2,10 @@ int getResult() {
   return 8818;
 }
 
+String getString(){
+  return "CasvalRemDaikun"; 
+}
+
 void main() {
   print('HELLO world?');
   var i = 87;
@@ -33,4 +37,8 @@ void main() {
   //浮點數點轉字串，取道小數點後兩位 (double to string)
   String strVal2 = 3.14159.toStringAsFixed(2);
   print(strVal2);
+
+  String strVC = getString();
+
+  print('$ROR2+$strVC');
 }
