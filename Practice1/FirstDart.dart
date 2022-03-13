@@ -41,4 +41,9 @@ void main() {
   String strVC = getString();
 
   print('$ROR2+$strVC');
+
+  for(i=1;i<6;i++){
+    print(i*10);
+  }
+
 }
